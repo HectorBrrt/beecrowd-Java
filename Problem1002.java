@@ -23,6 +23,6 @@ public class beecrowd {
         double pi = 3.14159;
         double area = R*R*pi;
 
-        System.out.println("A= " + area);
+        System.out.printf("A= %.4f%n", area);
     }
 }
