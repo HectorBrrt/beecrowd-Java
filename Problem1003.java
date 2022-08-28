@@ -1,8 +1,6 @@
 /*
 Simple Sum
-Adapted by Neilor Tonin, URI  Brazil
 
-Timelimit: 1
 Read two integer values, in this case, the variables A and B. 
 After this, calculate the sum between them and assign it to the variable SOMA. 
 Write the value of this variable.
