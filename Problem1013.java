@@ -15,7 +15,8 @@ import java.util.Scanner;
 public class beecrowd{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+        
+        System.out.print("Type a, b and c: ");
         int a = input.nextInt();
         int b = input.nextInt();
         int c = input.nextInt();
