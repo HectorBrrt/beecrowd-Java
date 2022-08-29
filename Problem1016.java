@@ -24,7 +24,7 @@ public class beecrowd{
         System.out.print("Distance (in km): ");
         int dis = input.nextInt();
 
-        int min = 2*dis; // (60*dis)/30
+        int min = 2*dis; // ((60*dis)/30)
 
         System.out.printf("%d minutes", min);
     }
