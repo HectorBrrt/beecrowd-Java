@@ -25,8 +25,8 @@ public class beecrowd{
         System.out.print("Total fuel spent (in liters): ");
         double Y = input.nextDouble();
 
-        double cons = X/Y;
+        double consumption = X/Y;
 
-        System.out.printf("Consuption: %.3f km/l", cons);
+        System.out.printf("Consuption: %.3f km/l", consumption);
     }
 }
