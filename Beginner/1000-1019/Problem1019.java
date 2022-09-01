@@ -14,6 +14,7 @@ The input file contains 1 integer value.
 Output
 Print the output, like the following example.
 */
+
 public class beecrowd{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
