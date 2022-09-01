@@ -47,3 +47,29 @@ public class beecrowd{
         value = value%2;
 
         value = value * 100.0;
+        System.out.println("Coins: "); // -----------------------------------------//
+
+        aux = (int) value/100;
+        System.out.printf("%d coin(s) of U$ 1.00\n", aux);
+        value = value%100.0;
+
+        aux = (int) value/50;
+        System.out.printf("%d coin(s) of U$ 0,50\n", aux);
+        value = value%50.0;
+
+        aux = (int) value/25;
+        System.out.printf("%d coin(s) of U$ 0,25\n", aux);
+        value = value%25.0;
+
+        aux = (int) value/10;
+        System.out.printf("%d coin(s) of U$ 0,10\n", aux);
+        value = value%10.0;
+
+        aux = (int) value/5;
+        System.out.printf("%d coin(s) of U$ 0,05\n", aux);
+        value = value%5.0;
+
+        aux = (int) value;
+        System.out.printf("%d coin(s) of U$ 0,01\n", aux);
+    }
+}
