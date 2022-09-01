@@ -11,3 +11,39 @@ The input file contains a value of floating point N (0 ≤ N ≤ 1000000.00).
 Output
 Print the minimum quantity of banknotes and coins necessary to change the initial value, as the given example.
 */
+
+import java.util.Scanner;
+public class beecrowd{
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Value: R$ ");
+        double value = input.nextDouble();
+
+        System.out.println("Bills: "); // -----------------------------------------//
+        int aux;
+        aux = (int) value/100;
+        System.out.printf("%d bill(s) of U$ 100.00\n", aux);
+        value =  value%100;
+
+        aux = (int) value/50;
+        System.out.printf("%d bill(s) of U$ 50.00\n", aux);
+        value = value%50;
+
+        aux = (int) value/20;
+        System.out.printf("%d bill(s) of U$ 20.00\n", aux);
+        value =  value%20;
+
+        aux = (int) value/10;
+        System.out.printf("%d bill(s) of U$ 10.00\n", aux);
+        value = value%10;
+
+        aux = (int) value/5;
+        System.out.printf("%d bill(s) of U$ 5.00\n", aux);
+        value =value%5;
+
+        aux = (int) value/2;
+        System.out.printf("%d bill(s) of U$ 2.00\n", aux);
+        value = value%2;
+
+        value = value * 100.0;
