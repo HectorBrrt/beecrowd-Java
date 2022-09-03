@@ -20,6 +20,5 @@ public class beecrowd {
         int B = input.nextInt();
         int PROD = A*B;
         System.out.println("SOMA = " + PROD);
-
     }
 }
