@@ -1,4 +1,5 @@
-/*  Average 1:
+/*  
+Average 1:
 Read two floating points' values of double precision A and B, corresponding to two student's grades. 
 After this, calculate the student's average, considering that grade A has weight 3.5 and B has weight 7.5. 
 Each grade can be from zero to ten, always with one digit after the decimal point. 
@@ -11,7 +12,7 @@ The input file contains 2 floating points' values with one digit after the decim
 Output
 Print the message "MEDIA"(average in Portuguese) and the student's average according to the following example, 
 with 5 digits after the decimal point and with a blank space before and after the equal signal.
- */
+*/
 
 import java.util.Scanner;
 
@@ -26,6 +27,5 @@ public class beecrowd {
 
         double MEDIA = ((A*3.5)+(B*7.5))/11.0;
         System.out.printf("MEDIA = %.5f%n", MEDIA);
-
     }
 }
