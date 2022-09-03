@@ -4,6 +4,7 @@ Write a program that reads an employee's number, his/her worked hours number in 
 Print the employee's number and salary that he/she will receive at end of the month, with two decimal places.
 
 Don’t forget the space before and after the equal signal and after the U$.
+
 Input
 The input file contains 2 integer numbers and 1 value of floating point, representing the number,
 worked hours amount and the amount the employee receives per worked hour.
@@ -27,6 +28,5 @@ public class beecrowd{
         double sal = input.nextDouble();
 
         System.out.printf("NUMBER = %d\nSALARY = %.2f",emplnum, sal*time);
-
     }
 }
