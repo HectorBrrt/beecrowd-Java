@@ -16,7 +16,6 @@ import java.util.Scanner;
 public class beecrowd{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
         System.out.print("A: ");
         int A = input.nextInt();
         System.out.print("B: ");
@@ -25,7 +24,6 @@ public class beecrowd{
         int C = input.nextInt();
         System.out.print("D: ");
         int D = input.nextInt();
-
         int DIFERENCA = (A * B - C * D);
 
         System.out.println("DIFERENCA = " + DIFERENCA);
