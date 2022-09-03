@@ -25,7 +25,7 @@ public class beecrowd {
         System.out.print("Second grade: ");
         double B = input.nextDouble();
 
-        double MEDIA = ((A*3.5)+(B*7.5))/11.0;
-        System.out.printf("MEDIA = %.5f%n", MEDIA);
+        double average = ((A*3.5)+(B*7.5))/11.0;
+        System.out.printf("MEDIA = %.5f%n", average);
     }
 }
