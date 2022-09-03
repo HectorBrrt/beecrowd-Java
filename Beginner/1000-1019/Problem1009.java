@@ -29,6 +29,5 @@ public class beecrowd{
         double sales = input.nextDouble();
         double finsal = sales*0.15 + sal;
         System.out.printf("The seller %s will receive U$ %.2f", name, finsal);
-
     }
 }
