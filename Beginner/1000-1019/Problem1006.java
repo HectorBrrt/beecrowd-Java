@@ -10,7 +10,7 @@ The input file contains 3 values of floating points (double) with one digit afte
 Output
 Print the message "MEDIA"(average in Portuguese) and the student's average according to the following example,
 with a blank space before and after the equal signal.
- */
+*/
 
 import java.util.Scanner;
 
@@ -24,8 +24,8 @@ public class beecrowd {
         System.out.print("Grade C: ");
         double C = input.nextDouble();
 
-        double MEDIA = ((A*2)+(B*3)+(C*5))/10;
+        double average = ((A*2)+(B*3)+(C*5))/10;
 
-        System.out.printf("MEDIA = %.1f%n", MEDIA);
+        System.out.printf("MEDIA = %.1f%n", average);
     }
 }
