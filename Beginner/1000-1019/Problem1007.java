@@ -25,8 +25,6 @@ public class beecrowd{
         System.out.print("D: ");
         int D = input.nextInt();
         int DIFFERENCE = (A * B - C * D);
-
         System.out.println("DIFERENCA = " + DIFFERENCE);
-
     }
 }
