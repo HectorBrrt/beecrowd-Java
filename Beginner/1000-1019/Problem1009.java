@@ -25,12 +25,9 @@ public class beecrowd{
         String name = input.nextLine();
         System.out.print("Fixed salary: U$ ");
         double sal = input.nextDouble();
-
         System.out.print("Total sales made (in money): U$ ");
         double sales = input.nextDouble();
-
         double finsal = sales*0.15 + sal;
-
         System.out.printf("The seller %s will receive U$ %.2f", name, finsal);
 
     }
