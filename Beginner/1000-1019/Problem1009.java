@@ -21,10 +21,8 @@ import java.util.Scanner;
 public class beecrowd{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
         System.out.print("Seller's name: ");
         String name = input.nextLine();
-
         System.out.print("Fixed salary: U$ ");
         double sal = input.nextDouble();
 
