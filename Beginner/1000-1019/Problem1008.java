@@ -20,13 +20,10 @@ public class beecrowd{
         Scanner input = new Scanner(System.in);
         System.out.print("Employee's number: ");
         int emplnum = input.nextInt();
-
         System.out.print("Worked hours in a month: ");
         int time = input.nextInt();
-
         System.out.print("Salary per hour: U$ ");
         double sal = input.nextDouble();
-
         System.out.printf("NUMBER = %d\nSALARY = %.2f",emplnum, sal*time);
     }
 }
