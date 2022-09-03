@@ -10,7 +10,6 @@ The input contains a value of floating point (double precision), that is the var
 Output
 Present the message "A=" followed by the value of the variable, 
 as in the example bellow, with four places after the decimal point. Use all double precision variables. 
-Like all the problems, don't forget to print the end of line after the result, otherwise you will receive "Presentation Error".
 */
 
 import java.util.Scanner;
