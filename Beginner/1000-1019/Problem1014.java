@@ -18,15 +18,11 @@ import java.util.Scanner;
 public class beecrowd{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
         System.out.print("Total distance (in km): ");
         int X = input.nextInt();
-
         System.out.print("Total fuel spent (in liters): ");
         double Y = input.nextDouble();
-
         double consumption = X/Y;
-
         System.out.printf("Consuption: %.3f km/l", consumption);
     }
 }
