@@ -24,8 +24,6 @@ public class beecrowd{
         double x2 = input.nextDouble();
         double y2 = input.nextDouble();
 
-        // Distance = square_root((x2-x1)^2 + (y2-y1)^2)
-
         double distance = Math.sqrt(Math.pow(x2-x1, 2) + Math.pow(y2-y1, 2));
 
         System.out.printf("%.4f%n", distance);
