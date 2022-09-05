@@ -40,8 +40,5 @@ public class beecrowd{
         System.out.printf("\nTrapezium: %.3f", c);
         System.out.printf("\nSquare: %.3f", d);
         System.out.printf("\nRectangle: %.3f", e);
-
-
-
     }
 }
