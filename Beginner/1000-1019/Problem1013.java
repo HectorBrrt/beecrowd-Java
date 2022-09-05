@@ -25,6 +25,5 @@ public class beecrowd{
         int maiorABC = (maiorAB + c + Math.abs(maiorAB-c))/2;
 
         System.out.printf("%d is the greatest", maiorABC);
-
     }
 }
