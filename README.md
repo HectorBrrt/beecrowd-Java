@@ -1,2 +1,2 @@
 # beecrowd-Java
-My beecrowd challenges resolutions.
+My beecrowd challenges resolutions in JAVA.
