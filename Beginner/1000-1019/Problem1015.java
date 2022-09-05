@@ -28,6 +28,5 @@ public class beecrowd{
 
         System.out.printf("%.4f%n", distance);
 
-
     }
 }
