@@ -4,6 +4,7 @@ Read the four values corresponding to the x and y axes of two points in the plan
 and calculate the distance between them, showing four decimal places after the comma, according to the formula:
 
 Distance = square_root((x2-x1)² + (y2-y1)²)
+
 Input
 The input file contains two lines of data. The first one contains two double values:
 x1 y1 and the second one also contains two double values with one digit after the decimal point: x2 y2.
