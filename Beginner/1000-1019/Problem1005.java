@@ -7,7 +7,7 @@ Don’t forget to print the end of line after the result, otherwise you will rec
 Don’t forget the space before and after the equal sign.
 
 Input
-The input file contains 2 floating points' values with one digit after the decimal point.
+The input file contains 2 floating points' values with one digit after the decimal point. asdfasdfasdfsdf
 
 Output
 Print the message "MEDIA"(average in Portuguese) and the student's average according to the following example, 
