@@ -6,7 +6,7 @@ write the final salary (total) of this seller at the end of the month , with two
 
 - Don’t forget to print the line's end after the result, otherwise you will receive “Presentation Error”.
 
-- Don’t forget the blank spaces.
+- Don’t forget the blank spaces. asdfasdfasdfsdf
 
 Input
 The input file contains a text (employee's first name), and two double precision values,
