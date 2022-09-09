@@ -5,7 +5,7 @@ Then, calculate the average, considering that grade A has weight 2, grade B has 
 Consider that each grade can go from 0 to 10.0, always with one decimal place.
 
 Input
-The input file contains 3 values of floating points (double) with one digit after the decimal point.
+The input file contains 3 values of floating points (double) with one digit after the decimal point. asdfasdfasdfsdf
 
 Output
 Print the message "MEDIA"(average in Portuguese) and the student's average according to the following example,
