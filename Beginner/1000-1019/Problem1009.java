@@ -33,3 +33,4 @@ public class beecrowd{
         System.out.printf("The seller %s will receive U$ %.2f", name, finsal);
     }
 }
+
