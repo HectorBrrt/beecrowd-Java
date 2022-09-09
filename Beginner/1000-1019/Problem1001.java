@@ -4,7 +4,7 @@ Read 2 variables, named A and B and make the sum of these two variables, assigni
 Print X as shown below. Print endline after the result otherwise you will get “Presentation Error”.
 
 Input
-The input file will contain 2 integer numbers.
+The input file will contain 2 integer numbers. asdfasdfasdfsdf
 
 Output
 Print the letter X (uppercase) with a blank space before and after the equal signal followed by the value of X, 
