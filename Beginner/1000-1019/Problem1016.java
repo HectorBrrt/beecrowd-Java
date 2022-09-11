@@ -1,4 +1,4 @@
-/*
+/* test
 Distance 2:
 Two cars (X and Y) leave in the same direction.
 The car X leaves with a constant speed of 60 km/h and the car Y leaves with a constant speed of 90 km / h.
