@@ -1,4 +1,4 @@
-/* test
+/* 
 Fuel Spent:
 Little John wants to calculate and show the amount of spent fuel liters on a trip, 
 using a car that does 12 Km/L. For this, he would like you to help him through a simple program. 
