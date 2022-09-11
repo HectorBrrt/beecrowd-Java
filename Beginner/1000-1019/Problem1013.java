@@ -1,4 +1,4 @@
-/* test
+/* 
 Greatest:
 Make a program that reads 3 integer values and present the greatest one followed by the message "is the greatest". 
 Use the following formula: GreatestAB= (a+b+abs(a-b))/2
